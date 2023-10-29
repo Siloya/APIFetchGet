@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginTop="10dp"
+        android:id="@+id/t1"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginTop="10dp"
+        android:id="@+id/t2"
+        android:layout_below="@id/t1"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginTop="10dp"
+        android:id="@+id/t3"
+        android:layout_below="@id/t2"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_marginTop="10dp"
+        android:id="@+id/t4"
+        android:layout_below="@id/t3"
+        />
+    <TextView
+        android:id="@+id/txtv3"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/t4"
+        android:text="---------------------------"
+        android:layout_marginLeft="20dp"
+        android:textColor="#CDC7C7"
+        android:layout_marginTop="-5dp"></TextView>
+
+
+</RelativeLayout>
